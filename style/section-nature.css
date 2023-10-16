@@ -1,0 +1,31 @@
+.container__nature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 70px 0;
+}
+
+.container__nature-card {
+    width: 400px;
+    padding: 1.2em 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icon-nature {
+    width: 150px;
+    height: 150px;
+}
+
+.titulo-nature {
+    font-size: 1.7em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.texto-nature {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}

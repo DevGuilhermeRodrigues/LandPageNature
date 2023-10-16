@@ -1,0 +1,48 @@
+.container__nature-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* background-color: #558d23; */
+    background-image: url(../img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    padding: 2em;
+}
+
+.nature-about-img {
+    width: fit-content;
+    height: 40em;
+    margin: 0 0;
+    border-radius: 10px;
+}
+
+.nature_about-div {
+    padding: 1em;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.nature_about-titulo {
+    font-size: 3.5em;
+}
+
+.nature-about-texto {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.nature-about-link {
+    width: 120px;
+    font-size: 1.8em;
+    padding: .5em 1em;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

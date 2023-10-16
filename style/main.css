@@ -1,0 +1,38 @@
+.container__main {
+    background-image: url(../img/waterfall-nature-forest-scenery-364.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.container__main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.main__div {
+    width: 500px;
+    margin: auto 15%;
+}
+
+.main__titulo {
+    font-size: 60px;
+}
+
+.main__texto {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.main__link {
+    display: block;
+    width: 200px;
+    color: white;
+    font-size: 2em;
+    border: 1px solid #ccc;
+    padding: .5em 1em;
+    border-radius: 10px;
+}

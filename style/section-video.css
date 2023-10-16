@@ -1,0 +1,48 @@
+.container-video-info {
+    /* background-image: url("../img/photo-1470058869958-2a77ade41c02.avif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #3c7f31;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+ 
+    margin-top: 16px;
+    width: auto;
+    padding: 3em 10em;
+}
+
+.grupo-div2 {
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1em;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+.div2-titulo {
+    color: white;
+    font-size: 46px;
+}
+
+.div2-texto {
+    color: white;
+    width: 300px;
+    font-size: 28px;
+}
+
+.div2-link {
+    color: white;
+    width: fit-content;
+    font-size: 28px;
+    border: 1px solid black;
+    padding: .5em 1em;
+    border-radius: 8px;
+    background: transparent;
+}

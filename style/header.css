@@ -1,0 +1,30 @@
+.container__header {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header__logo {
+    font-size: 1.8em;
+    color: white;
+}
+
+.nav__lista {
+    display: flex;
+}
+
+.nav__lista-item {
+    margin: 0 2em;
+}
+
+.nav__lista-link {
+    color: #ffffff;
+    font-size: 25px;
+}
