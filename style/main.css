@@ -12,6 +12,10 @@
     color: white;
 }
 
+.efeito-txt-main {
+    visibility: hidden;
+}
+
 .main__div {
     width: 500px;
     margin: auto 15%;
@@ -36,3 +40,4 @@
     padding: .5em 1em;
     border-radius: 10px;
 }
+

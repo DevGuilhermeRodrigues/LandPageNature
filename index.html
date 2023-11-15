@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@200;300;400;700 & family= Roboto+Slab:wght@300;400;500;700 & display=swap" rel="stylesheet">
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet"> <!--load all styles -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>  
+    <!-- O atributo defer diz ao navegador para executar o script apenas quando a análise do HTML estiver finalizada. -->
+
     <link rel="stylesheet" href="./style/style.css">
     <title>Nature</title>
 </head>
@@ -21,7 +27,7 @@
     </header>
 
     <main class="container__main">
-        <div class="main__div">
+        <div class="main__div efeito-txt-main">
             <h1 class="main__titulo">Lorem, ipsum dolor!</h1>
             <p class="main__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sint.</p>
             <a href="#" class="main__link">Nature</a>
@@ -29,19 +35,19 @@
     </main>
 
     <section class="container__nature">
-        <div class="container__nature-card">
+        <div class="container__nature-card efeito-card1">
             <img src="./img/earth-svgrepo-com.svg" alt="" class="icon-nature">
             <h2 class="titulo-nature">Hand heather</h2>
             <p class="texto-nature">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis et at quisquam consequatur neque vel?</p>
         </div>
 
-        <div class="container__nature-card">
+        <div class="container__nature-card efeito-card2">
             <img src="./img/forest-svgrepo-com.svg" alt="" class="icon-nature">
             <h2 class="titulo-nature">Forest</h2>
             <p class="texto-nature">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, laborum.</p>
         </div>
 
-        <div class="container__nature-card">
+        <div class="container__nature-card efeito-card3">
             <img src="./img/recycling-bin-trash-svgrepo-com.svg" alt="" class="icon-nature">
             <h2 class="titulo-nature">Recicle</h2>
             <p class="texto-nature">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam omnis sequi tenetur nesciunt iure vel eveniet perferendis?</p>
@@ -50,27 +56,35 @@
 
     <section class="container__nature-about">
         <div class="">
-            <img src="./img/imagem-bg02.jpg" alt="imagem de planta" class="nature-about-img">
-            <img src="./img/imagem-bg03.jpg" alt="imagem de planta" class="nature-about-img">
+            <img src="./img/imagem-bg02.jpg" alt="imagem de planta" class="nature-about-img efeito-about-img1">
+            <img src="./img/imagem-bg03.jpg" alt="imagem de planta" class="nature-about-img efeito-about-img2">
         </div>
 
-        <div class="nature_about-div">
+        <div class="nature_about-div efeito-about-txt">
             <h2 class="nature_about-titulo">Lorem, ipsum.</h2>
             <p class="nature-about-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sed corrupti sit, magnam nulla voluptates commodi delectus, omnis dolore, fugiat rem aliquam quas minima eligendi impedit inventore culpa totam corporis.</p>
             <a href="#" class="nature-about-link">About</a>
         </div>
     </section>
 
-    <section class="container-video-info">
-            <div class="section-container grupo-div01">
-                <iframe width="660" height="415" src="https://www.youtube.com/embed/7AkbUfZjS5k?si=vLhu_gdj0OKpjz5a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+    <section class="container__nature-end">
+        <div class="nature-end-img efeito-container-end">
+            <img src="./img/feche-o-broto-do-solo.jpg" alt="">
+        </div>
 
-            <div class="section-container grupo-div2">
-                <h2 class="div2-titulo">Lorem, ipsum.</h2>
-                <p class="div2-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repellat, suscipit delectus repellendus voluptas illum dicta laboriosam! Nisi, asperiores? Voluptates.</p>
-                <a href="#" class="div2-link">Apoie</a>
-            </div>
+        <div class="nature-end-txt efeito-txt-end">
+            <h3>Plantar é cuidar!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum praesentium laboriosam saepe mollitia ipsa, minus repudiandae voluptas dignissimos rem at ducimus, esse officiis voluptate quia cum totam quas aliquid debitis!</p>
+            <ul>
+                <li><a href="#"><img src="./img/facebook.svg" alt=""></a></li>
+                <li><a href="#"><img src="./img/instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="./img/youtube.svg" alt=""></a></li>
+            </ul>
+        </div>
     </section>
+
+    <footer>
+        <p>Desenvolvido por Guilherme Rodrigues</p>
+    </footer>
 </body>
 </html>

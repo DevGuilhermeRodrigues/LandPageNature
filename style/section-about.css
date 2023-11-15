@@ -3,13 +3,17 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    /* background-color: #558d23; */
     background-image: url(../img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     color: white;
     padding: 2em;
+}
+
+/* Efeito Reveal */
+.efeito-about-img1, .efeito-about-img2, .efeito-about-txt {
+    visibility: hidden;
 }
 
 .nature-about-img {
